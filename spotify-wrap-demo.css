@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Noto+Sans+Thai&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap');
+
+.wrap-setmain {
+    width: auto; 
+    background: #000000; 
+    box-sizing: border-box; 
+    padding: 30px; 
+    color: white; 
+    font-family: Plus Jakarta Sans, Kanit;
+}
+
+.wrap-setmainflex {
+    display: flex; 
+    justify-content: 
+    center; 
+    gap: 10px;
+}
+
+.wrap-leftflex {
+    width: 70%; 
+    border-radius: 10px; 
+    background: #121212;
+}
+
+.wrap-head {
+    width: auto; 
+    min-height: 250px; 
+    border-radius: 10px 10px 0px 0px; 
+    box-sizing: border-box; 
+    padding: 16px;
+}
+
+.wrap-menuflex {
+    width: auto; 
+    display: flex; 
+    justify-content: space-between;
+}
+
+.wrap-back {
+    width: 30px; 
+    height: 30px; 
+    background: url(https://i.imgur.com/k8y3Yjv.png) 46% 50%/28% no-repeat, #00000033; 
+    border-radius: 100%;
+}
+
+.wrap-forward {
+    width: 30px; 
+    height: 30px; 
+    background: url(https://i.imgur.com/k8y3Yjv.png) 46% 50%/28% no-repeat, #00000033; 
+    border-radius: 100%; 
+    transform: rotate(180deg);
+}
+
+.wrap-menuemp {
+    width: 73%;
+}
+
+.wrap-friends {
+    width: 30px; 
+    height: 30px; 
+    background: url(https://i.imgur.com/Pwhpwt9.png) 51.1% 50%/56% no-repeat, #00000033; 
+    border-radius: 100%;
+}
+
+.wrap-profbg {
+    width: 30px; 
+    height: 30px; 
+    background: #00000033; 
+    border-radius: 100%; 
+    box-sizing: border-box; 
+    padding: 2px;
+}
+
+.wrap-prof {
+    width: auto; 
+    aspect-ratio: 1/1; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 100%;
+}
+
+.wrap-headflex {
+    margin-top: 36px; 
+    display: flex; 
+    gap: 20px;
+}
+
+.wrap-headpic {
+    width: 28%; 
+    aspect-ratio: 1/1; 
+    border-radius: 5px; 
+    box-shadow: 0px 0px 14px #00000080; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-top: auto;
+}
+
+.wrap-headtypeset {
+    width: fit-content; 
+    margin: auto 0px 0px 0px;
+}
+
+.wrap-by {
+    font-weight: 700; 
+    font-size: 12px;
+}
+
+.wrap-dn {
+    font-weight: 700; 
+    font-size: 48px; 
+    margin-top: -14px;
+}
+
+.wrap-wpflex {
+    display: flex; 
+    margin-top: -2px; 
+    font-size: 12px;
+}
+
+.wrap-wppic {
+    width: 22px; 
+    height: 22px; 
+    border-radius: 100%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.wrap-wpn {
+    margin: auto 0px auto 6px; 
+    font-weight: 700;
+}
+
+.wrap-ep {
+    margin: auto 0px auto 6px; 
+    font-weight: 500;
+}
+
+.wrap-epbg {
+    border-radius: 0px 0px 10px 10px; 
+    box-sizing: border-box; padding: 16px;
+}
+
+.wrap-playflex {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.wrap-play {
+    width: 48px; 
+    height: 48px; 
+    background: url(https://i.imgur.com/3vJ1grc.png) 56% 50%/34% no-repeat, #1ed760; 
+    border-radius: 100%;
+}
+
+.wrap-pemp {
+    width: 64%;
+}
+
+.wrap-search {
+    width: 14px; 
+    height: 14px; 
+    background: url(https://i.imgur.com/Dmoa2Sy.png) center/cover no-repeat; 
+    opacity:0.5; 
+    margin: 20px 0px auto 0px;
+}
+
+.wrap-added {
+    opacity: 0.5; 
+    font-size: 12px; 
+    margin: auto 0px;
+}
+
+.wrap-line {
+    border-bottom: 1px solid white; 
+    opacity: 0.4; 
+    margin-top: 16px;
+}
+
+.wrap-epflex {
+    display: flex; 
+    gap: 16px; 
+    margin-top: 16px;
+}
+
+.wrap-eppic {
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    border-radius: 5px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin-bottom: auto;
+}
+
+.wrap-eptypeset {
+    width: 80%; 
+    color: #a1a1a1; 
+    font-size: 13px; 
+    line-height: 1.4;
+}
+
+.wrap-sname {
+    font-weight: 700; 
+    font-size: 15px; 
+    color: white; 
+    margin: 4px 0px;
+}
+
+.wrap-ept {
+    margin-bottom: 4px; 
+    font-size: 12px; 
+    color: #1ed760;
+}
+
+.wrap-rightflex {
+    width: 30%; 
+    border-radius: 10px; 
+    background: #121212; 
+    box-sizing: border-box; 
+    padding: 10px;
+}
+
+.wrap-abtwp {
+    height: 140px; 
+    border-radius: 10px 10px 0px 0px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    font-weight: 700; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    text-shadow: 0px 0px 10px #000000cc; 
+    font-size: 13px;
+}
+
+.wrap-wpinfo {
+    border-radius: 0px 0px 10px 10px; 
+    background: #242424; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    font-weight: 400px; 
+    font-size: 13px; 
+    line-height: 1.4;
+}
+
+.wrap-wpname {
+    font-weight: 600; 
+    font-size: 16px; 
+    margin-bottom: 6px;
+}
+
+.wrap-settop {
+    background: #242424; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.wrap-tophead {
+    font-weight: 700; 
+    color: #1ed760;
+}
+
+.wrap-topflex {
+    display: flex; 
+    gap: 15px; 
+    margin-top: 10px; 
+    color: white;
+}
+
+.wrap-topnum {
+    margin: auto 0px; 
+    width: 6px; 
+    text-align: center;
+}
+
+.wrap-toppic {
+    border-radius: 5px; 
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    margin: auto 0px;
+}
+
+.wrap-topname {
+    width: fit-content; 
+    font-weight: 600; 
+    margin: auto 0px;
+}
+
+.wrap-topat {
+    font-size: 12px; 
+    color: #a1a1a1; 
+    margin-top: -4px;
+}
+
+.wrap-setly {
+    background: #242424; 
+    box-sizing: border-box; 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 10px; 
+    font-size: 12px; 
+    line-height: 1.4;
+}
+
+.wrap-lyhead {
+    font-weight: 700; 
+    font-size: 14px; 
+    margin-bottom: 10px;
+}
+
+.wrap-lycr {
+    font-style: italic; 
+    font-size: 9px; 
+    text-align: right; 
+    margin-top: 10px;
+}
