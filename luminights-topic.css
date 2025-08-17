@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://dl.dropbox.com/scl/fi/7dzj4imcgggi7vcmbkcdv/lrv-luminight-rp.css?rlkey=cmluviawy05xzclpp402yt4t6&st=kl2ptxwp');
+
+@font-face {
+    font-family: 'Stopmotion';
+    src: url('https://dl.dropbox.com/scl/fi/sl9pc5sljz9oay1xgcfln/StopmotionDecember11.ttf?rlkey=w4r6gtak0xpw7uvy3br25h380&st=2lljutum&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* width */
+#luminights::-webkit-scrollbar {
+  width: 0.2vw;
+}
+
+/*track*/
+#luminights::-webkit-scrollbar-track {
+  border-radius: 0px;
+  background: 0px;
+}
+
+/*handle*/
+#luminights::-webkit-scrollbar-thumb {
+  background: var(--lmnt-mcl); 
+  border-radius: 0px;
+}
+
+.lmnt-mb {
+    width: 85%; 
+    margin: 4vw auto;
+}
+
+.lmnt-tf {
+    width: auto; 
+    display: flex;
+}
+
+.lmnt-ts {
+    width: 50%; 
+    position: relative; 
+    box-sizing: border-box; 
+    padding: 4vw 4.8vw; 
+    aspect-ratio: 1/1;
+}
+
+.lmnt-tt {
+    font: 3vw Stopmotion; 
+    color: var(--lmnt-ac);
+}
+
+.lmnt-st {
+    font-size: 1.2vw;
+}
+
+.lmnt-tr {
+    margin: 4vw auto 0 auto; 
+    width: 60%; 
+    aspect-ratio: 832/636; 
+    background: var(--lmnt-mcl); 
+    mask: url(https://iili.io/FU8gQzx.png) center/cover;
+}
+
+.lmnt-bd {
+    position: absolute; 
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    background: var(--lmnt-mcl); 
+    mask: url(https://iili.io/FU8gZWQ.png) 53% 44%/119% no-repeat; 
+    -webkit-mask: url(https://iili.io/FU8gZWQ.png) 53% 44%/119% no-repeat; 
+    top: 0; 
+    left: 0; 
+    user-select: none; 
+    pointer-events: none;
+}
+
+.lmnt-is {
+    background: var(--lmnt-mcl); 
+    width: 50%; 
+    margin-top: 0.5vw;
+}
+
+.lmnt-img {
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    background: var(--lmnt-i); 
+    mask: url(https://iili.io/FUSORb2.png) center/cover; 
+    -webkit-mask: url(https://iili.io/FUSORb2.png) center/cover;
+}
+
+.lmnt-br {
+    width: 100%; 
+    background: var(--lmnt-mcl); 
+    display: flex; 
+    gap: 1vw; 
+    font: 1.1vw Moderniz; 
+    color: var(--lmnt-ac); 
+    box-sizing: border-box; 
+    padding: 0.8vw 1.2vw; 
+    margin-top: -1vw;
+}
+
+.lmnt-ds {
+    width: 6%; 
+    aspect-ratio: 59/27; 
+    background: var(--lmnt-ac); 
+    mask: url(https://iili.io/FU8gUfS.png) top/cover; 
+    -webkit-mask: url(https://iili.io/FU8gUfS.png) top/cover;
+}
+
+.lmnt-act {
+    width: 88%; 
+    text-align: center; 
+    text-transform: uppercase; 
+    margin-top: 0.2vw;
+}
+
+.lmnt-bf {
+    width: auto; 
+    display: flex; 
+    border-bottom: 1.2vw solid var(--lmnt-mcl); 
+    border-left: 0.25vw solid var(--lmnt-mcl); 
+    border-right: 0.25vw solid var(--lmnt-mcl);
+}
+
+.lmnt-lf {
+    width: 21%; 
+    border-right: 0.25vw solid var(--lmnt-mcl);
+}
+
+.lmnt-cv {
+    aspect-ratio: 1/1; 
+    width: auto; 
+    background: var(--lmnt-mcl); 
+    mask: url(https://iili.io/FU8grg9.png) 50% 90%/136% no-repeat; 
+    -webkit-mask: url(https://iili.io/FU8grg9.png) 50% 90%/136% no-repeat;
+}
+
+.lmnt-ln {
+    height: 0.25vw; 
+    background: var(--lmnt-mcl);
+}
+
+.lmnt-ap {
+    box-sizing: border-box; 
+    padding: 0.8vw;
+}
+
+.lmnt-ar {
+    aspect-ratio: 590/116; 
+    width: 100%; 
+    background: var(--lmnt-mcl); 
+    mask: url(https://iili.io/FU8gkx4.png) top/cover; 
+    -webkit-mask: url(https://iili.io/FU8gkx4.png) top/cover;
+}
+
+.lmnt-ct {
+    width: 79%; 
+    aspect-ratio: 591/207; 
+    box-sizing: border-box; 
+    padding: 1.6vw; 
+    color: var(--lmnt-mcl); 
+    font: 1.2vw Chakra Petch; 
+    line-height: 1.6; 
+    overflow-y: scroll;
+}
