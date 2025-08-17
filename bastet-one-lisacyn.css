@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit&display=swap');
+
+.gb1-sbg {
+    width: auto; 
+    box-sizing: border-box; 
+    padding: 30px; 
+    display: flex; 
+    gap: 20px; 
+    justify-content: center;
+}
+
+.gb1-sl {
+    width: 30%; 
+    border-radius: 18px; 
+    background: white; 
+    box-sizing: border-box; 
+    padding: 20px 20px 8px 20px; 
+    margin-bottom: auto;
+}
+
+.gb1-tfl {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.gb1-b {
+    width: 5%; 
+    aspect-ratio: 1/2; 
+    background: url(https://i.imgur.com/oP2AHYC.png) center/cover no-repeat; 
+    filter: brightness(70%);
+}
+
+.gb1-m {
+    width: 10%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/kI7Swht.png) center/106% no-repeat; 
+    filter: brightness(70%); 
+    transform: scaleX(-1);
+}
+
+.gb1-imgf {
+    width: 75%; 
+    aspect-ratio: 20/1; 
+    border-radius: 20px 20px 0px 0px; 
+    margin: 30px auto 0px auto; 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.gb1-imgs {
+    width: 87%; 
+    aspect-ratio: 20/1; 
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin: auto; 
+    border-radius: 20px 20px 0px 0px;
+}
+
+.gb1-imgt {
+    width: auto; 
+    aspect-ratio: 10/18;  
+    border-radius: 14px; position: relative;
+}
+
+.gb1-if {
+    position: absolute; 
+    bottom: 28px; 
+    left: 14px; 
+    right: 14px; 
+    font: 14px Outfit;
+}
+
+.gb1-sm {
+    display: flex; 
+    margin: -16px auto 0px auto; 
+    width: auto; 
+    justify-content: center; 
+    gap: 10px; 
+    position: relative; 
+    z-index: 10; 
+    align-items: center;
+}
+
+.gb1-bm {
+    width: 16%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/dnIYUqe.png) center/45% no-repeat; 
+    border-radius: 100%; 
+    border: 4px solid white;
+}
+
+.gb1-hm {
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/yyh6Tbn.png) center/55% no-repeat; 
+    border-radius: 100%; 
+    border: 4px solid white;
+}
+
+.gb1-fm {
+    width: 16%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/h9TUhU6.png) center/45% no-repeat; 
+    border-radius: 100%; 
+    border: 4px solid white;
+}
+
+.gb1-sr {
+    width: 60%; 
+    position: relative; 
+    font-size: 16px; 
+    font-family: 'IBM Plex Sans Thai'; 
+    color: white; line-height: 1.4;
+}
+
+.gb1-bc {
+    width: 22%; 
+    aspect-ratio: 1/1; 
+    border-radius: 100%; 
+    border-style: solid;
+    border-width: 1.4px;
+    margin: auto; 
+    position: relative; 
+    z-index: 10; 
+    background: #131313;
+}
+
+.gb1-mh {
+    width: 82%; 
+    aspect-ratio: 1/1; 
+    background: url(https://i.imgur.com/aKArIjy.png) center/60% no-repeat; 
+    border-radius: 100%;
+    position: absolute; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    top: 0; 
+    bottom: 0;
+}
+
+.stext {
+    position: relative; 
+    z-index: 8; 
+    width: auto; 
+    height: auto; 
+    border-radius: 30px; 
+    box-sizing: border-box; 
+    padding: 30px 34px; 
+    margin-top: -24px;
+}

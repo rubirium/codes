@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=IBM+Plex+Sans+Thai&display=swap');
+
+@font-face {
+    font-family: 'Peach Chery';
+    src: url('https://dl.dropbox.com/scl/fi/dsepwgty47rs6ht2cbryr/peach-chery.ttf?rlkey=i0igp4gpbrevfrot3eioti7no&st=gw1q2kr1&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gb3-mset {
+    width: 81%; 
+    max-width: 800px; 
+    margin: 60px auto; 
+    position: relative;
+}
+
+.gb3-tt {
+    width: fit-content; 
+    font: 3.7vw Peach Chery; 
+    color: white; 
+    line-height: 1; 
+    position: relative;
+}
+
+.gb3-a1 {
+    position: absolute; 
+    width: 32%; 
+    aspect-ratio: 1/1; 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    transform: rotate(-8deg); 
+    bottom: -26%; 
+    left: -12%;
+}
+
+.gb3-bg {
+    margin: 5.5vw 0px 0px auto; 
+    width: 80%; 
+    aspect-ratio: 25/10; 
+    border-width: 1.4px;
+    border-style: solid;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: relative;
+}
+
+.gb3-a2 {
+    position: absolute; 
+    width: 18%; 
+    aspect-ratio: 1/1;  
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    transform: rotate(-8deg); 
+    top: 8%; 
+    right: -10%;
+}
+
+.gb3-lr {
+    margin-top: 4vw; 
+    font: 1vw Poppins; 
+    color: white;
+}
+
+.gb3-sbg {
+    margin: 0.8vw auto 10vw 0px; 
+    width: 64%; 
+    aspect-ratio: 7/1; 
+    border-width: 1.4px;
+    border-style: solid; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.gb3-ifull {
+    position: absolute; 
+    width: 54%; 
+    top: 8%; 
+    right: -14px; 
+    aspect-ratio: 2/4; 
+    background-position: top; 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+}
+
+.gb3-icut {
+    position: absolute; 
+    width: 54%; 
+    height: 94%; 
+    bottom: 0px; 
+    right: -14px; 
+    background-position: top; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}

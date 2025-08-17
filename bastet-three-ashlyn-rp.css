@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=IBM+Plex+Sans+Thai&display=swap');
+
+@font-face {
+    font-family: 'Peach Chery';
+    src: url('https://dl.dropbox.com/scl/fi/dsepwgty47rs6ht2cbryr/peach-chery.ttf?rlkey=i0igp4gpbrevfrot3eioti7no&st=gw1q2kr1&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gb3-rp-mset {
+    width: 73%; 
+    max-width: 800px; 
+    margin: 60px auto 2.7vw auto; 
+    position: relative;
+}
+
+.gb3-rp-tt {
+    width: fit-content; 
+    font: 3.7vw Peach Chery; 
+    color: white; 
+    line-height: 1; 
+    position: relative;
+}
+
+.gb3-rp-a1 {
+    position: absolute; 
+    width: 32%; 
+    aspect-ratio: 1/1;  
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    transform: rotate(-8deg); 
+    bottom: -26%; 
+    left: -12%;
+}
+
+.gb3-rp-bg {
+    margin-top: 5.5vw; 
+    aspect-ratio: 25/10; 
+    border-width: 1.4px;
+    border-style: solid; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    position: relative;
+}
+
+.gb3-rp-a2 {
+    position: absolute; 
+    width: 18%; 
+    aspect-ratio: 1/1; 
+    background-position: center; 
+    background-size: 147%; 
+    background-repeat: no-repeat; 
+    transform: rotate(-8deg); 
+    top: 8%; 
+    right: -10%;
+}
+
+.gb3-rp-img {
+    position: absolute; 
+    width: 54%; 
+    height: 91%; 
+    bottom: 1.4px; 
+    right: 1.4px;  
+    background-position: top; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.gb3-rp-stext {
+    width: 73%; 
+    max-width: 800px; 
+    font: 1.25vw IBM Plex Sans Thai; 
+    color: white; 
+    text-align: justify; 
+    margin: 0px auto 60px auto;
+}

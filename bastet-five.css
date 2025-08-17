@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Homemade+Apple&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Meow+Script&family=Pinyon+Script&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+
+.bt5-shead {
+    width: auto; 
+    font: 2.6vw EB Garamond; 
+    display: flex; 
+    justify-content: center; 
+    gap: 1vw; 
+    margin-top: 4vw;
+}
+
+.bt5-fhead {
+    width: fit-content; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    margin-right: -2px;
+}
+
+.bt5-nickname {
+    width: fit-content; 
+    font: 4.7vw Pinyon Script; 
+    color: var(--accent); 
+    margin-top: -1.5vw; 
+    position: relative; z-index: 10;
+}
+
+.bt5-desc {
+    font: 0.8vw Inter; 
+    text-transform: uppercase; 
+    color: var(--text); 
+    margin-top: -1.2vw; 
+    margin-left: 0.1vw; 
+    letter-spacing: 0.1vw; 
+    text-align: center; 
+    position: relative; z-index: 9;
+}
+
+.bt5-tflex {
+    width: 80%; 
+    margin: 3vw auto; 
+    display: flex; 
+    justify-content: center; 
+    gap: 2vw;
+}
+
+.bt5-sflex {
+    width: 28%; 
+    font: 1.2vw Chakra Petch; 
+    color: var(--subacc);
+}
+
+.bt5-tinfo {
+    color: var(--text);
+}
+
+.bt5-iline {
+    height: 0.065vw; 
+    width: auto; 
+    margin: 0.2vw 0px 0.15vw 0px; 
+    background: var(--subacc);
+}
+
+.bt5-ititle {
+    font: 0.8vw IBM Plex Mono; 
+    text-transform: uppercase;
+}
+
+.bt5-info {
+    color: var(--text); 
+    margin-top: 1vw;
+}
+
+.bt5-sdob {
+    width: auto; 
+    display: flex; 
+    margin-top: 1.6vw; 
+    justify-content: space-between;
+}
+
+.bt5-bdob {
+    width: auto; 
+    border: 0.065vw solid var(--subacc); 
+    text-align: center; 
+    display: flex; 
+    color: var(--text);
+}
+
+.bt5-ldob {
+    width: 0.065vw; 
+    height: auto; 
+    background: var(--subacc);
+}
+
+.bt5-ninfo {
+    font: 0.8vw IBM Plex Mono; 
+    text-transform: uppercase; 
+    margin-top: 0.15vw;
+}
+
+.bt5-aflex {
+    width: auto; 
+    display: flex; 
+    gap: 0.7vw;
+}
+
+.bt5-img {
+    width: 44%; 
+    aspect-ratio: 69/90; 
+    background: var(--img) center/cover; 
+    position: relative; 
+    border: 1.2px solid var(--text);
+}
+
+.bt5-imenu {
+    position: absolute; 
+    bottom: 0; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    aspect-ratio: 276/100; 
+    background: url(https://iili.io/2fk5Jvs.png) center/cover; 
+    mix-blend-mode: screen;
+}
+
+.bt5-pic {
+    width: 13%; 
+    aspect-ratio: 1/1; 
+    border-radius: 4px; 
+    background: var(--tinyimg) center/cover; 
+    position: absolute; 
+    bottom: 5%; 
+    left: 5%;
+}
+
+.bt5-mflex {
+    margin-top: 1vw; 
+    width: auto; 
+    display: flex; 
+    gap: 0.7vw;
+}
+
+.bt5-bar {
+    margin-top: 1vw; 
+    width: auto; 
+    background: var(--subacc);
+}
+
+.bt5-prcnt {
+    height: 0.8vw; 
+    background: var(--accent);
+}
+
+.bt5-sname {
+    width: fit-content; 
+    margin: auto; 
+    text-align: center; 
+    margin-bottom: 3vw;
+}
+
+.bt5-name {
+    font: 3vw var(--font); 
+    color: var(--accent); 
+    position: relative; 
+    z-index: 12;
+    credit: auxbetty (Bethany L. Flozentine);
+}
+
+.bt5-lname {
+    width: 75%; 
+    height: 0.065vw; 
+    background: var(--subacc); 
+    margin: auto; 
+    margin-top: -0.4vw;
+}
+
+.bt5-dtitle {
+    font: 0.8vw IBM Plex Mono; 
+    text-transform: uppercase; 
+    margin-top: 0.15vw; 
+    color: var(--subacc);
+}
+
+.bt5-pflex {
+    width: 80%; 
+    margin: auto; 
+    display: flex; 
+    gap: 3vw; 
+    font: 1.1vw Chakra Petch; 
+    color: var(--text);
+}
+
+.bt5-para {
+    width: auto; 
+    aspect-ratio: 1/1; 
+    overflow-y: scroll; 
+    scrollbar-width: none; 
+    line-height: 1.6; 
+    box-sizing: border-box; 
+    padding-bottom: 2vw; 
+    mask: linear-gradient(180deg, white 56%, transparent 100%); 
+    -webkit-mask: linear-gradient(180deg, white 56%, transparent 100%);
+}
+
+.bt5-pline {
+    width: auto; 
+    height: 0.065vw; 
+    background: var(--subacc);
+}
+
+.bt5-tpara {
+    font: 0.8vw IBM Plex Mono; 
+    text-transform: uppercase; 
+    margin-top: 0.15vw; 
+    color: var(--subacc); 
+    text-align: center;
+}
+
+.bt5-rltn {
+    width: fit-content; 
+    margin: 3vw auto 1.6vw auto; 
+    font: 1.8vw EB Garamond; 
+    color: var(--text); 
+    text-align: center; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+.bt5-rflex {
+    width: 80%; 
+    margin: 0px auto 4vw auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1vw; 
+    font: 1.2vw Chakra Petch; 
+    color: var(--text);
+    justify-content: space-between;
+}
+
+.bt5-accq {
+    width: fit-content; 
+    margin-top: 0.2vw;
+}
+
+.bt5-nm {
+    margin-right: 0.6vw;
+}
+
+.bt5-rline {
+    height: 0.065vw; 
+    width: auto; 
+    margin: 0.2vw 0px 0.15vw 0px; 
+    background: var(--subacc);
+}
+
+.bt5-tline {
+    font: 0.8vw IBM Plex Mono; 
+    text-transform: uppercase; 
+    color: var(--subacc);
+}
