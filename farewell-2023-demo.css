@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Single+Day&display=swap');
+
+.fw23-m {
+    width: 80%; 
+    margin: 20px auto; 
+    font: 15px Single Day, Itim; 
+    color: #242424;
+}
+
+.fw23-mfb {
+    display: flex; 
+    color: white; 
+    gap: 16px;
+}
+
+.fw23-pfp {
+    width: 50px; 
+    height: 50px; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+.fw23-ifs {
+    width: fit-content; 
+    line-height: 1.2; 
+    font-size: 24px; 
+    margin: auto 0px;
+}
+
+.fw23-gi {
+    color: #666; 
+    font-size: 16px;
+}
+
+.fw23-plfb {
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.fw23-cl {
+    width: 33%; 
+    margin: 0px 0px auto 0px;
+}
+
+.fw23-pl {
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    padding: 10px;
+}
+
+.fw23-2pl {
+    margin-top: 20px;
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    padding: 10px;
+}
+
+.fw23-qt {
+    font-size: 20px; 
+    color: black; 
+    margin-bottom: 10px;
+}
+
+.fw23-img {
+    border-radius: 10px; 
+    width: auto; 
+    aspect-ratio: 1/1; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.fw23-addimg {
+    border-radius: 10px; 
+    width: auto; 
+    aspect-ratio: 1/1; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0px;
+}
