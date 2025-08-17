@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap);
+
+.svrvam-mset {
+    width: 68%; 
+    margin: 4vw auto; 
+    border: 2px solid var(--vamborder); 
+    position: relative; 
+    font: 1.25vw Bai Jamjuree; 
+    line-height: 1.6;
+}
+
+.svrvam-bldmsk {
+    width: 100%; 
+    aspect-ratio: 184/100; 
+    mask-image: url(https://i.imgur.com/fzPVkn5.png); 
+    mask-position: bottom; 
+    mask-size: 101%; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url(https://i.imgur.com/fzPVkn5.png); 
+    -webkit-mask-position: bottom; 
+    -webkit-mask-size: 101%; 
+    -webkit-mask-repeat: no-repeat; 
+    background: var(--vamaccent); 
+    position: absolute; 
+    top: 0px; 
+    left: 0px;
+}
+
+.svrvam-bat {
+    width: 17vw; 
+    aspect-ratio: 2/1; 
+    mask-image: url(https://i.imgur.com/rQmG0Qm.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url(https://i.imgur.com/rQmG0Qm.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover; 
+    -webkit-mask-repeat: no-repeat; 
+    background: var(--vamborder); 
+    margin: -4.4vw auto 0px auto;
+}
+
+.svrvam-srch {
+    width: 22vw; 
+    aspect-ratio: 5/1; 
+    mask-image: url(https://i.imgur.com/sVog9Jv.png); 
+    mask-position: 50% 23%; 
+    mask-size: 120%; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url(https://i.imgur.com/sVog9Jv.png); 
+    -webkit-mask-position: 50% 23%; 
+    -webkit-mask-size: 120%; 
+    -webkit-mask-repeat: no-repeat; 
+    background: var(--vamborder); 
+    margin: 1vw auto 0px auto;
+}
+
+.svrvam-note {
+    width: 19vw; 
+    color: var(--vamborder); 
+    margin: -3.7vw auto 0px auto; 
+    position: relative; 
+    z-index: 9; 
+    font-size: 1.2vw;
+}
+
+.svrvam-mgnl {
+    margin-left: 2.6vw;
+}
+
+.svrvam-ovrf {
+    overflow: hidden; 
+    position: relative;
+}
+
+.svrvam-text {
+    box-sizing: border-box; 
+    padding: 5.4vw 4vw 6vw 4vw; 
+    color: var(--vamtextcl); 
+    position: relative; 
+    z-index: 10; 
+    text-align: justify;
+}
+
+.svrvam-img {
+    margin-bottom: 2vw; 
+    width: auto; 
+    aspect-ratio: 8/3; 
+    background-size: cover; 
+    background-position: 50% 28%; 
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+.svrvam-pntr {
+    width: 17vw; 
+    aspect-ratio: 3/1; 
+    mask-image: url(https://i.imgur.com/ZMZZKAk.png); 
+    mask-size: 130%; 
+    mask-position: center; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url(https://i.imgur.com/ZMZZKAk.png); 
+    -webkit-mask-size: 130%; 
+    -webkit-mask-position: center; 
+    -webkit-mask-repeat: no-repeat; 
+    background: var(--vamborder); 
+    position: absolute; 
+    right: 0.6vw; 
+    top: -3vw;
+}
+
+.svrvam-name {
+    position: absolute; 
+    top: -3.3vw; 
+    right: 17.6vw; 
+    color: var(--vamborder); 
+    font: 2vw Roboto Mono;
+}
+
+.svrvam-grd {
+    width: 100%; 
+    aspect-ratio: 1/1; 
+    background-image: radial-gradient(var(--vamaccent) 12%, transparent 70%); 
+    position: absolute; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    bottom: -30vw;
+}
+
+.svrvam-tbord {
+    width: 18vw; 
+    aspect-ratio: 1/1; 
+    mask-image: url(https://i.imgur.com/o1ia0sI.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url(https://i.imgur.com/o1ia0sI.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover; 
+    -webkit-mask-repeat: no-repeat; 
+    background: var(--vamborder); 
+    position: absolute; 
+    top: -3.8vw; 
+    left: -4.28vw;
+}
+
+.svrvam-bbord {
+    width: 18vw; 
+    aspect-ratio: 1/1; 
+    mask-image: url(https://i.imgur.com/o1ia0sI.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    mask-repeat: no-repeat; 
+    -webkit-mask-image: url(https://i.imgur.com/o1ia0sI.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover; 
+    -webkit-mask-repeat: no-repeat; 
+    background: var(--vamborder); 
+    position: absolute; 
+    bottom: -3.75vw; 
+    right: -4.28vw; 
+    transform: rotate(180deg);
+}

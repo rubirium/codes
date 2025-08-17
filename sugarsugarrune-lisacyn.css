@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.ssr-fix-pink {
+    --card: url(https://i.imgur.com/J6FhemV.jpg); 
+    --ctab: url(https://i.imgur.com/rwrJ9br.png); 
+    --lbg: #ef9b8f; 
+    --hbg: #fecea3; 
+    --sbg: #da9f7d; 
+    --nbg: #ffd3d3; 
+    --bg: white; 
+    --cl: black; 
+    --bd: #d97d8a; 
+    --obd: 1px; 
+    --shadow: black;
+}
+
+.ssr-fix-peach {
+    --card: url(https://i.imgur.com/99i500V.jpg); 
+    --ctab: url(https://i.imgur.com/GmOAANQ.png); 
+    --lbg: #e3a25f; 
+    --hbg: #e8b5bb; 
+    --sbg: #fef1a3; 
+    --nbg: #ffd3e0; 
+    --bg: white; 
+    --cl: black; 
+    --bd: #da9f7d; 
+    --obd: 1px; 
+    --shadow: black;
+}
+
+.ssr-fix-blue {
+    --card: url(https://i.imgur.com/n0cDiwE.jpg); 
+    --ctab: url(https://i.imgur.com/vVG0tt9.png); 
+    --lbg: #765094; 
+    --hbg: #a3c5fe; 
+    --sbg: #d3ffe8; 
+    --nbg: #96c5e7; 
+    --bg: white; 
+    --cl: black; 
+    --bd: #5d89a2; 
+    --obd: 1px; 
+    --shadow: black;
+}
+
+.ssr-fix-purple {
+    --card: url(https://i.imgur.com/QLRxdde.jpg); 
+    --ctab: url(https://i.imgur.com/RV8O2Fa.png); 
+    --lbg: #c285f5; 
+    --hbg: #f5d3ff; 
+    --sbg: #fea3aa; 
+    --nbg: #b7b9e9; 
+    --bg: white; 
+    --cl: black; 
+    --bd: #7e5da2; 
+    --obd: 1px; 
+    --shadow: black;
+}
+
+.ssr-fix-yellow {
+    --card: url(https://i.imgur.com/7UfUEki.jpg); 
+    --ctab: url(https://i.imgur.com/z17bUO6.png); 
+    --lbg: #f5c587; 
+    --hbg: #f5ec85; 
+    --sbg: #ffd3d6; 
+    --nbg: #e8cab8; 
+    --bg: white; 
+    --cl: black; 
+    --bd: #dac17e; 
+    --obd: 1px; 
+    --shadow: black;
+}
+
+.ssr-fix-green {
+    --card: url(https://i.imgur.com/pSIHt6i.jpg); 
+    --ctab: url(https://i.imgur.com/fYfZ54E.png); 
+    --lbg: #91c271; 
+    --hbg: #aee796; 
+    --sbg: #ffecbf; 
+    --nbg: #e2efc1; 
+    --bg: white; 
+    --cl: black; 
+    --bd: #5da276; 
+    --obd: 1px; 
+    --shadow: black;
+}
+
+.ssr-fix-ogre {
+    --card: url(https://i.imgur.com/hlI26iS.jpg); 
+    --ctab: url(https://i.imgur.com/wih7MeN.png); 
+    --lbg: #7c74a1; 
+    --hbg: #6b5473; 
+    --sbg: #e4edb7; 
+    --nbg: #442a4d; 
+    --bg: black; 
+    --cl: white; 
+    --bd: #7f47b4; 
+    --obd: 1px; 
+    --shadow: white;
+}
+
+.ssr-fix-halloween {
+    --card: url(https://iili.io/2BFRcmB.png); 
+    --ctab: url(https://i.imgur.com/wih7MeN.png); 
+    --lbg: #ffc100; 
+    --hbg: #7c149d; 
+    --sbg: #ff7d01; 
+    --nbg: #cd333d; 
+    --bg: black; 
+    --cl: white; 
+    --bd: #b44747; 
+    --obd: 1px; 
+    --shadow: white;
+}
+
+.ssr-fix-b {
+    width: 75%; 
+    margin: 4vw auto; 
+    font: 16px Nunito, Noto Sans Thai; 
+    color: var(--cl); 
+    position: relative;
+}
+
+.ssr-fix-bg {
+    width: auto; 
+    background: var(--bg); 
+    border-radius: 30px; 
+    box-sizing: border-box; 
+    padding: 2.6vw; 
+    position: relative; 
+    box-shadow: 2px 2px 8px -4px var(--shadow); 
+    z-index: 5; 
+    border: var(--obd) solid white; 
+    min-height: 25vw;
+}
+
+.ssr-fix-f {
+    width: 52.5%; 
+    aspect-ratio: 13/11; 
+    float: left;
+}
+
+.ssr-fix-l {
+    width: fit-content; 
+    border-radius: 30px; 
+    background: var(--lbg); 
+    padding: 0.5vw 1.3vw; 
+    color: var(--bg); 
+    margin: 0px 0px 1.4vw 52.5%;
+}
+
+.ssr-fic-cb {
+    position: absolute; 
+    width: 54%; 
+    top: 3.2vw; 
+    left: -6%; 
+    z-index: 6;
+}
+
+.ssr-fix-c {
+    border-radius: 30px; 
+    width: auto; 
+    aspect-ratio: 154/100; 
+    background: var(--card) center/110% no-repeat; 
+    box-shadow: 2px 2px 8px -4px var(--shadow); 
+    position: relative; 
+    box-sizing: border-box; 
+    padding: 1.8vw;
+}
+
+.ssr-fix-cf {
+    width: auto; 
+    display: flex; 
+    gap: 1.6vw;
+}
+
+.ssr-fix-i {
+    width: 47%; 
+    aspect-ratio: 71/100; 
+    border: 1.2px solid var(--bd); 
+    background: var(--img) center/cover no-repeat; 
+    border-radius: 16px;
+}
+
+.ssr-fix-si {
+    width: 53%; 
+    margin-top: auto;
+}
+
+.ssr-fix-n {
+    border-radius: 100px; 
+    background: var(--bg); 
+    border: 1.2px solid var(--bd); 
+    padding: 0.3vw 0.9vw;
+}
+
+.ssr-fix-w {
+    margin-top: 0.5vw; 
+    border-radius: 100px; 
+    background: var(--wand) center/90% no-repeat, var(--bg); 
+    border: 1.2px solid var(--bd); 
+    padding: 0.2vw 0.6vw; 
+    aspect-ratio: 37/10;
+}
+
+.ssr-fix-cl {
+    margin-top: 0.5vw; 
+    width: fit-content; 
+    border-radius: 100px; 
+    background: var(--bg); 
+    border: 1.2px solid var(--bd); 
+    padding: 0.3vw 0.9vw;
+}
+
+.ssr-fix-ta {
+    width: 14%; 
+    aspect-ratio: 53/100; 
+    background: var(--ctab) center/cover; 
+    position: absolute; 
+    top: -9.6%; 
+    right: 22%;
+}
+
+.ssr-fix-tb {
+    width: 14%; 
+    aspect-ratio: 53/100; 
+    background: var(--ctab) center/cover; 
+    position: absolute; 
+    top: -9.6%; 
+    right: 6%;
+}
+
+.ssr-fix-nt {
+    width: fit-content; 
+    margin: -0.3vw 2vw 0px 2vw; 
+    background: var(--nbg); 
+    padding: 0.8vw 1.3vw; 
+    border-radius: 0px 0px 20px 20px;
+}
+
+.ssr-fix-sh {
+    width: 9%; 
+    background: var(--hbg); 
+    border-radius: 0px 20px 20px 0px; 
+    z-index: 4; 
+    position: absolute; 
+    top: 2.3vw; 
+    right: -7.5%;
+}
+
+.ssr-fix-ht {
+    width: auto; 
+    aspect-ratio: 1/1; 
+    mask: url(https://i.imgur.com/aKArIjy.png) center/50% no-repeat; 
+    -webkit-mask: url(https://i.imgur.com/aKArIjy.png) center/50% no-repeat; 
+    background: var(--bg);
+}
+
+.ssr-fix-ss {
+    width: 9%; 
+    background: var(--sbg); 
+    border-radius: 0px 20px 20px 0px; 
+    z-index: 4; 
+    position: absolute; 
+    top: 7.6vw; 
+    right: -7.5%;
+}
+
+.ssr-fix-sr {
+    width: auto; 
+    aspect-ratio: 1/1; 
+    mask: url(https://i.imgur.com/VodVhoJ.png) center/50% no-repeat; 
+    -webkit-mask: url(https://i.imgur.com/VodVhoJ.png) center/50% no-repeat; 
+    background: var(--bg);
+}
