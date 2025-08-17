@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css');
+
+.p1rp-base {
+    width: 70%; 
+    margin: 3vw auto; 
+    font: 1.1vw Chulabhorn Likit Text; 
+    color: var(--color);
+}
+
+.p1rp-title {
+    text-align: center; 
+    font: 3.6vw Poppins; 
+    color: var(--border); 
+    font-style: italic;
+}
+
+.p1rp-desc {
+    font-size: 2.1vw; 
+    margin-top: -0.2vw;
+}
+
+.p1rp-main {
+    margin: 2.6vw auto 0px auto; 
+    width: auto; 
+    display: flex; 
+    border: 1.6px solid var(--border); 
+    position: relative;
+}
+
+.p1rp-img {
+    width: 32%; 
+    border-right: 1.6px solid var(--border); 
+    height: auto; 
+    background: var(--img) center/cover no-repeat;
+}
+
+.p1rp-tbox {
+    width: 68%; 
+    background: var(--bg); 
+    position: relative; 
+    overflow: hidden; 
+    box-sizing: border-box; 
+    padding: 3vw;
+}
+
+.p1rp-content {
+    position: relative; 
+    z-index: 10; 
+    aspect-ratio: 28/31; 
+    overflow-y: scroll; 
+    scrollbar-width: none; 
+    box-sizing: border-box; 
+    padding-bottom: 1.6vw; 
+    mask: linear-gradient(0deg, transparent, black 10%);
+}
+
+.p1rp-snote {
+    margin-top: 2vw; 
+    display: flex; 
+    justify-content: flex-end; 
+    position: relative; 
+    z-index: 9;
+}
+
+.p1rp-note {
+    box-sizing: border-box; 
+    padding: 0.2vw 0.6vw; 
+    color: var(--bg); 
+    background: var(--color); 
+    border-radius: 6px;
+}
+
+.p1rp-accent {
+    width: 100%; 
+    aspect-ratio: 3/5; 
+    background-image: radial-gradient(var(--accent) -22%, transparent 70%); 
+    position: absolute; 
+    right: -48%; 
+    bottom: -70%; 
+    z-index: 8;
+}
+
+.p1rp-icon {
+    width: 16%; 
+    aspect-ratio: 1/1; 
+    background: var(--icon) center/cover no-repeat; 
+    position: absolute; 
+    top: -11%; 
+    left: -9%;
+}
+
+.p1rp-spark1 {
+    width: 12%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/2Jb8uhg.png) center/cover no-repeat; 
+    -webkit-mask: url(https://iili.io/2Jb8uhg.png) center/cover no-repeat; 
+    background: var(--iconbg); 
+    position: absolute; 
+    top: -36%; 
+    left: 3%;
+}
+
+.p1rp-spark2 {
+    width: 14%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/2Jb8AQa.png) center/cover no-repeat; 
+    -webkit-mask: url(https://iili.io/2Jb8AQa.png) center/cover no-repeat; 
+    background: var(--iconbg); 
+    position: absolute; 
+    bottom: 6%; right: -17%;
+}
+
+.p1rp-spark3 {
+    width: 6%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/2JbDJXR.png) center/cover no-repeat; 
+    -webkit-mask: url(https://iili.io/2JbDJXR.png) center/cover no-repeat; 
+    background: var(--iconbg); 
+    position: absolute; 
+    bottom: 2%; 
+    right: -9%;
+}
+
+.p1rp-haus {
+    width: fit-content; 
+    margin: 2vw auto 0.4vw auto; 
+    font: 0.8vw Poppins; 
+    line-height: 1.4; 
+    color: var(--border);
+}
+
+.p1rp-pumpkin {
+    width: 29%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/29DVeRI.png) center/cover no-repeat; 
+    -webkit-mask: url(https://iili.io/29DVeRI.png) center/cover no-repeat; 
+    background: var(--border); 
+    float: left; 
+    margin-right: 0.5vw;
+}
