@@ -1,0 +1,117 @@
+/* fonts > all fonts installed here are either free (non commercial, which i abide by the terms) or paid for with my own money */
+/* if you are going to copy, do so at your own risk because I WILL ASK about the ones i've PAID */
+
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css');
+
+@font-face {
+    font-family: 'Chulabhorn Likit Text';
+    src: url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ghost Kid';
+    src: url('https://dl.dropbox.com/scl/fi/s8v3hz6pcsb54lx3x6t32/297PANIGhostKidDemo-Regular.ttf?rlkey=8k2ugzp15m0nb5n2o2p06bngk&st=fgmwbj59&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Venice';
+    src: url('https://dl.dropbox.com/scl/fi/n5etn2f8bx7qino190n9b/TCS-4Venice-Demo.ttf?rlkey=lk8rd5ki56azawlwj5eelrf32&st=1ejuxxn2&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butter';
+    src: url('https://dl.dropbox.com/scl/fi/qrbpe4gvue1mk5gz8p0kt/TCS-4Butter-Demo.ttf?rlkey=wpsnlankkgsci0lvrx13eoq68&st=vvs5npfg&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Veronica';
+    src: url('https://dl.dropbox.com/scl/fi/ia9wxgmjun1di730qnanc/f24q3239-queen-veronica-queen-veronica-regular-400.ttf?rlkey=fygnsozqw7heda4unj7qc3yzz&st=165cw26s&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Toffee';
+    src: url('https://dl.dropbox.com/scl/fi/g0a2bbtycxym6mm6fckkl/KMToffee.ttf?rlkey=6nhhaokfpq3e1povrntx9hx11&st=uex15ah8&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Toffee Thin';
+    src: url('https://dl.dropbox.com/scl/fi/kyoayvquhs4hwnfn4koj7/KMToffeeThin.ttf?rlkey=7tvpnyygzkf4qs780u3ixdr4s&st=wi8atkbq&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Toffee Bold';
+    src: url('https://dl.dropbox.com/scl/fi/5affrtrimulcksuezstt4/KMToffeeBold.ttf?rlkey=80ny9dr0y0kmx6cexq9ys0bb7&st=m09iardh&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Forever';
+    src: url('https://dl.dropbox.com/scl/fi/3oi0f4rcv32gzuntp9bqq/forever-forever-regular-400.ttf?rlkey=prsg9lywlqyxcd6x7nn0kpjaj&st=2fve4s3y&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maha Nakhon';
+    src: url('https://dl.dropbox.com/scl/fi/qxnryrpumpakzttznizr4/FC-Maha-Nakhon-Medium-Non-commercial.ttf?rlkey=t95isdsgej0bs42srgvfdfx0x&st=uiymjfgl&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Maha Nakhon Flat';
+    src: url('https://dl.dropbox.com/scl/fi/81se1szue80vqgymo1pg3/FC-Maha-Nakhon-Flat-Medium-Non-commercial.ttf?rlkey=77mcwu6rvo4xt4uy1bcpwklr9&st=1ql23l4p&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mission Flat';
+    src: url('https://dl.dropbox.com/scl/fi/j0nxx5utmoh6blyin3v91/FC-Mission-Flat-Base-Non-commercial.ttf?rlkey=7ssjang5drh0v9z6ny3v5zeuw&st=cpbypfa2&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Paragraph';
+    src: url('https://dl.dropbox.com/scl/fi/bs8j1ocvt6akihti1cswo/FCParagraph-Non-cml-BoldExtraExpanded.ttf?rlkey=cckvlt34ivbnkc52uy8yhzlqb&st=watcgw8r&dl=0') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ชื่อฟอนต์';
+    src: url('ลิงก์') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#auxbetty summary {cursor: pointer;}
+#auxbetty summary::marker {content: '';}
+#auxbetty summary::-webkit-details-marker {display: none;}
+/* hidden summary marker > credit to zzzcode (with permission) */
+
+#bethlink a {
+    color: #fff;
+}
+
+#bethlink a:hover {
+    color: #cc9999;
+}
