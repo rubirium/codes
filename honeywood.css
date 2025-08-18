@@ -1,4 +1,4 @@
-@import url('https://dl.dropbox.com/scl/fi/hbzq53nrx817cemiz0g9q/auxbetty-selection.css?rlkey=cjhrm9rz9brjvcakp78y49wdt&st=rfl6cyt3&dl=0');
+@import url('https://cdn.jsdelivr.net/gh/rubirium/codes@refs/heads/main/selection.css');
 @import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css');
 
 .honeywood-sb {
@@ -95,4 +95,5 @@
     width: 100%; 
     position: relative; 
     z-index: 99;
+
 }
