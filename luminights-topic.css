@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-@import url('https://dl.dropbox.com/scl/fi/7dzj4imcgggi7vcmbkcdv/lrv-luminight-rp.css?rlkey=cmluviawy05xzclpp402yt4t6&st=kl2ptxwp');
+@import url('https://midsummer-reverie.github.io/rpth-code/lrv-luminight-rp.css');
 
 @font-face {
     font-family: 'Stopmotion';
@@ -162,4 +162,5 @@
     font: 1.2vw Chakra Petch; 
     line-height: 1.6; 
     overflow-y: scroll;
+
 }
