@@ -1,0 +1,98 @@
+@import url('https://dl.dropbox.com/scl/fi/hbzq53nrx817cemiz0g9q/auxbetty-selection.css?rlkey=cjhrm9rz9brjvcakp78y49wdt&st=rfl6cyt3&dl=0');
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css');
+
+.honeywood-sb {
+    width: auto; 
+    background: url(https://iili.io/35nYAVn.png) center/50% repeat, white; 
+    box-sizing: border-box; 
+    position: relative; 
+    overflow: hidden; 
+    font: 1.15vw Chulabhorn Likit Text; 
+    color: #805a35;
+}
+
+.honeywood-sm {
+    box-sizing: border-box; 
+    padding: 9vw 6vw 4vw 27vw; 
+    position: relative; 
+    z-index: 99; min-height: 40vw; 
+    text-shadow: 0px 0px 20px white;
+}
+
+.honeywood-name {
+    font: 7vw Veronica; 
+    margin: 0 0 -0.5vw -2vw;
+}
+
+.honeywood-note {
+    padding-top: 1vw; 
+    width: fit-content; 
+    border-top: 3px dotted #805a35; 
+    font-size: 1vw; 
+    line-height: 1.6; 
+    margin-top: 2.5vw;
+}
+
+.honeywood-ft {
+    width: auto; 
+    aspect-ratio: 1920/641; 
+    background: url(https://iili.io/35fzX5J.png) right bottom/60% no-repeat, url(https://iili.io/35fzWJa.png) left bottom/60% no-repeat, url(https://iili.io/35xD1cl.png) left bottom/50% no-repeat; 
+    margin: -11vw 0 0 auto; 
+    z-index: 30; 
+    position: relative;
+}
+
+.honeywood-logo {
+    width: 14%; 
+    aspect-ratio: 680/413; 
+    background: url(https://iili.io/35xOUuI.png) center/cover; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    bottom: 14%; 
+    position: absolute; 
+    opacity: 40%;
+}
+
+.honeywood-tp {
+    position: absolute; 
+    width: 50%; 
+    aspect-ratio: 1/1; 
+    background: url(https://iili.io/35xDM9S.png) center/cover; 
+    top: 0%; 
+    right: 0%;
+}
+
+.honeywood-sf {
+    position: absolute; 
+    top: 4vw; 
+    left: -14%; 
+    width: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.honeywood-ff {
+    width: 100%; 
+    position: relative; 
+    z-index: 98;
+}
+
+.honeywood-img {
+    width: 76%; 
+    aspect-ratio: 4/5; 
+    border-radius: 100%; 
+    background: var(--hnwimg) center/cover; 
+    position: absolute; 
+    top: 12%; 
+    left: 12%;
+}
+
+.honeywood-fm {
+    aspect-ratio: 719/900; 
+    background: url(https://iili.io/35XITDQ.png) center/contain; 
+    width: 100%; 
+    position: relative; 
+    z-index: 99;
+}

@@ -1,0 +1,261 @@
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=National+Park:wght@200..800&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+#malibu a {
+    color: var(--linkcl);
+}
+
+#malibu a:hover {
+    color: var(--hovercl);
+}
+
+[name="betty"] {
+    --namemask: url(https://iili.io/3ltcRDu.png);
+    --nameposition: 12% center; 
+}
+
+[name="chandler"] {
+    --namemask: url(https://iili.io/3ltcuR9.png);
+    --nameposition: 18% center; 
+}
+
+[name="alfredius"] {
+    --namemask: url(https://iili.io/3ltcTH7.png);
+    --nameposition: 34% center;
+}
+
+[name="ashlyn"] {
+    --namemask: url(https://iili.io/3ltcxl2.png);
+    --nameposition: 50% center;   
+}
+
+[name="blair"] {
+    --namemask: url(https://iili.io/3ltaZwg.png);
+    --nameposition: 19% center;  
+}
+
+[name="clint"] {
+    --namemask: url(https://iili.io/3ltcBVf.png);
+    --nameposition: 50% center; 
+}
+
+[name="daphne"] {
+    --namemask: url(https://iili.io/3ltczSS.png);
+    --nameposition: 44% center; 
+}
+
+[name="entil"] {
+    --namemask: url(https://iili.io/30o5p8Q.png);
+    --nameposition: 40% center; 
+}
+
+[name="floyd"] {
+    --namemask: url(https://iili.io/3ltcoKl.png);
+    --nameposition: 50% center; 
+}
+
+[name="genevieve"] {
+    --namemask: url(https://iili.io/3ltcqoG.png);
+    --nameposition: 25% center; 
+}
+
+[name="hans"] {
+    --namemask: url(https://iili.io/3ltcCP4.png);
+    --nameposition: 55% center; 
+}
+
+[name="kamin"] {
+    --namemask: url(https://iili.io/3ltcKts.png);
+    --nameposition: 30% center; 
+}
+
+[name="klaus"] {
+    --namemask: url(https://iili.io/3ltcFNn.png);
+    --nameposition: 50% center; 
+}
+
+[name="letisia"] {
+    --namemask: url(https://iili.io/3ltc3AX.png);
+    --nameposition: 50% center; 
+}
+
+[name="levy"] {
+    --namemask: url(https://iili.io/3ltc29t.png);
+    --nameposition: 52% center; 
+}
+
+[name="louisa"] {
+    --namemask: url(https://iili.io/3ltcJSI.png);
+    --nameposition: 50% center; 
+}
+
+[name="lucine"] {
+    --namemask: url(https://iili.io/3ltcHcN.png);
+    --nameposition: 50% center; 
+}
+
+[name="rowena"] {
+    --namemask: url(https://iili.io/3ltc9Fp.png);
+    --nameposition: 40% center; 
+}
+
+[name="shiba"] {
+    --namemask: url(https://iili.io/3ltapPR.png);
+    --nameposition: 50% center; 
+}
+
+[name="simon"] {
+    --namemask: url(https://iili.io/3ltatta.png);
+    --nameposition: 42% center; 
+}
+
+[name="theon"] {
+    --namemask: url(https://iili.io/3ltamMv.png);
+    --nameposition: 50% center; 
+}
+
+[name="violette"] {
+    --namemask: url(https://iili.io/3ltaboJ.png);
+    --nameposition: 48% center; 
+}
+
+[name="richard"] {
+    --namemask: url(https://iili.io/3MDp6HN.png);
+    --nameposition: 36% center;
+}
+
+[name="blaise"] {
+    --namemask: url(https://iili.io/3kbzBHb.png);
+    --nameposition: 20% center;
+}
+
+[name="veronica"] {
+    --namemask: url(https://iili.io/3kbzfUu.png);
+    --nameposition: 40% center;
+}
+
+[name="morticia"] {
+    --namemask: url(https://iili.io/3gYWSXn.png);
+    --nameposition: 26% center;
+}
+
+.mirage-sb {
+    background: url(https://iili.io/30HPc1S.png) center/cover, black; 
+    background-blend-mode: lighten; 
+    position: relative;
+}
+
+.mirage-sf {
+    width: auto; 
+    padding: 10vw 4vw 10vw 7vw; 
+    box-sizing: border-box; 
+    display: flex;
+}
+
+.mirage-tx {
+    width: 55%; 
+    color: var(--mmrpcl); 
+    filter: drop-shadow(0px 0px 8px #000);
+}
+
+.mirage-st {
+    font: 1vw National Park; 
+    text-align: center; 
+    text-transform: uppercase;
+}
+
+.mirage-nm {
+    width: 86%; 
+    aspect-ratio: 16/9; 
+    background: var(--mmrptx); 
+    mask: var(--namemask) var(--nameposition)/75% no-repeat; 
+    -webkit-mask: var(--namemask) var(--nameposition)/75% no-repeat; 
+    margin: -3.5vw auto -6vw auto;
+}
+
+.mirage-tt {
+    font-size: 0.8vw;
+}
+
+.mirage-sc {
+    font: 1.15vw Chulabhorn Likit Text; 
+    margin-top: 2.6vw;
+}
+
+.mirage-sn {
+    margin-top: 2.4vw; 
+    font-size: 1vw; 
+    color: var(--mmrpnt);
+}
+
+.mirage-nt {
+    width: fit-content; 
+    padding: 0vw 0.4vw; 
+    background: var(--mmrptx); 
+    color: black; 
+    font: 1vw National Park; 
+    text-transform: uppercase; 
+    display: inline-block; 
+    margin-right: 0.2vw; 
+    font-weight: 600;
+}
+
+.mirage-pf {
+    width: 45%; 
+    margin: auto;
+}
+
+.mirage-f1 {
+    width: 70%; 
+    margin: auto; 
+    aspect-ratio: 15/9; 
+    background: var(--mmrpi1) center/cover; 
+    position: relative;
+}
+
+.mirage-f2 {
+    width: 70%; 
+    margin: 3.4vw auto 0 auto; 
+    aspect-ratio: 15/9; 
+    background: var(--mmrpi2) center/cover; 
+    position: relative;
+}
+
+.mirage-f3 {
+    width: 70%; 
+    margin: 3.4vw auto 0 auto; 
+    aspect-ratio: 15/9; 
+    background: var(--mmrpi3) center/cover; 
+    position: relative;
+}
+
+.mirage-fm {
+    width: 127%; 
+    aspect-ratio: 1920/1080; 
+    background: url(https://iili.io/3l6PvJn.png) center/cover; 
+    position: absolute; 
+    top: -14%; 
+    left: -12%;
+}
+
+.mirage-flt {
+    width: 100%; 
+    aspect-ratio: 16/1; 
+    background: url(https://iili.io/30HFni7.png) top/cover; 
+    position: absolute; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    top: 0;
+}
+
+.mirage-flb {
+    width: 100%; 
+    aspect-ratio: 16/1; 
+    background: url(https://iili.io/30HFxf9.png) bottom/cover; 
+    position: absolute; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+}
