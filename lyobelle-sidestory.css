@@ -254,7 +254,7 @@
 
 @font-face {
     font-family: 'Jimmy Script';
-    src: url('https://dl.dropbox.com/scl/fi/07ix1b11chgjkxsi0d17u/JimmyScript-Rg.otf?rlkey=7bpurwv2teo40yx519hg0ixin') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/rubirium/fonts@raw/refs/heads/main/JimmyScript-Rg.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -417,4 +417,5 @@
     mask: url(https://iili.io/KJYryba.png) bottom/cover; 
     -webkit-mask: url(https://iili.io/KJYryba.png) bottom/cover; 
     background: var(--stitch);
+
 }
