@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400..900&family=Gaegu&display=swap');
+
+:root {
+    --lyobelle-tc: black;
+    --lyb-rpt: #705a44;
+    --lyb-bg: #ddd3ca;
+    --lyb-tsd: #d4beb7;
+    --lyb-acc: #d9c0b7;
+}
+
+#lyblink a {
+    color: #705a44;
+}
+
+#lyblink a:hover {
+    color: #bba084;
+}
+
+[job="farmer"] {
+    --lyobelle-bgi: url(https://iili.io/2PUHgn4.jpg); 
+    --lyobelle-bgc: #c8d5aa; 
+    --lyobelle-ttc: #758949;
+}
+
+[job="baker"] {
+    --lyobelle-bgi: url(https://iili.io/2PUHStf.jpg); 
+    --lyobelle-bgc: #e9cea6; 
+    --lyobelle-ttc: #9f7330;
+}
+
+[job="witch"] {
+    --lyobelle-bgi: url(https://iili.io/2PUHrMl.jpg);  
+    --lyobelle-bgc: #d6bedc; 
+    --lyobelle-ttc: #794a85;
+}
+
+[flower="daisy"] {
+    --lyobelle-favflower: url(https://i.imgur.com/yc1lwVj.png);
+}
+
+[flower="roselle"] {
+    --lyobelle-favflower: url(https://i.imgur.com/ShNqyEl.png);
+}
+
+[flower="orchid"] {
+    --lyobelle-favflower: url(https://i.imgur.com/vxmfsIL.png);
+}
+
+[flower="gardenia"] {
+    --lyobelle-favflower: url(https://i.imgur.com/vZE3P00.png);
+}
+
+[flower="rose"] {
+    --lyobelle-favflower: url(https://i.imgur.com/5WinOmi.png);
+}
+
+[flower="chrysanthemum"] {
+    --lyobelle-favflower: url(https://i.imgur.com/4URlcn9.png);
+}
+
+[flower="cosmo"] {
+    --lyobelle-favflower: url(https://i.imgur.com/OXGpbEc.png);
+}
+
+[flower="chamomile"] {
+    --lyobelle-favflower: url(https://i.imgur.com/rhbisS5.png);
+}
+
+[flower="white-hibiscus"] {
+    --lyobelle-favflower: url(https://i.imgur.com/pO1OWQl.png);
+}
+
+[flower="hibiscus"] {
+    --lyobelle-favflower: url(https://i.imgur.com/rqBTKFH.png);
+}
+
+[flower="lotus"] {
+    --lyobelle-favflower: url(https://i.imgur.com/Lw0eNbZ.png);
+}
+
+[flower="daffodil"] {
+    --lyobelle-favflower: url(https://i.imgur.com/3AorVnW.png);
+}
+
+[flower="blue-dahlia"] {
+    --lyobelle-favflower: url(https://i.imgur.com/TFzy5HX.png);
+}
+
+[flower="delphinium"] {
+    --lyobelle-favflower: url(https://i.imgur.com/bnCjCTe.png);
+}
+
+[flower="sunflower"] {
+    --lyobelle-favflower: url(https://i.imgur.com/4YKhCEL.png);
+}
+
+[flower="tulip"] {
+    --lyobelle-favflower: url(https://i.imgur.com/cJZdxCh.png);
+}
+
+[flower="bluebell"] {
+    --lyobelle-favflower: url(https://i.imgur.com/4J1rdcW.png);
+}
+
+[flower="peony"] {
+    --lyobelle-favflower: url(https://i.imgur.com/eCrV2nd.png);
+}
+
+[flower="poppy"] {
+    --lyobelle-favflower: url(https://i.imgur.com/wUINu0H.png);
+}
+
+[flower="pansy"] {
+    --lyobelle-favflower: url(https://i.imgur.com/Ivtbief.png);
+}
+
+[flower="fairyrose"] {
+    --lyobelle-favflower: url(https://i.imgur.com/PGdFFg1.png);
+}
+
+[flower="jasmine"] {
+    --lyobelle-favflower: url(https://i.imgur.com/Y5Ie8mk.png);
+}
+
+[flower="lavender"] {
+    --lyobelle-favflower: url(https://i.imgur.com/2Gt1ZCr.png);
+}
+
+[flower="lily"] {
+    --lyobelle-favflower: url(https://i.imgur.com/tESas8K.png);
+}
+
+[flower="jepun"] {
+    --lyobelle-favflower: url(https://i.imgur.com/sT4Wh4M.png);
+}
+
+[flower="violet"] {
+    --lyobelle-favflower: url(https://i.imgur.com/wy6jnuJ.png);
+}
+
+[flower="snowdrop"] {
+    --lyobelle-favflower: url(https://i.imgur.com/GfPyZek.png);
+}
+
+[flower="butterfly-pea"] {
+    --lyobelle-favflower: url(https://i.imgur.com/eEfdB8X.png);
+}
+
+[flower="iris"] {
+    --lyobelle-favflower: url(https://i.imgur.com/CnGCK5i.png);
+}
+
+[flower="lily-of-the-valley"] {
+    --lyobelle-favflower: url(https://i.imgur.com/GQWLvca.png);
+}
+
+[flower="lilac"] {
+    --lyobelle-favflower: url(https://i.imgur.com/ReJAl4S.png);
+}
+
+.lyb-reg-bg {
+    width: auto; 
+    border-radius: 14px; 
+    box-sizing: border-box; 
+    padding: 3vw; 
+    background: var(--lyobelle-bgi) center/cover; 
+    color: var(--lyobelle-tc); 
+    font: 1.13vw Mali; 
+    line-height: 1.8;
+}
+
+.lyb-reg-sf {
+    width: auto; 
+    display: flex; 
+    gap: 1.6vw;
+}
+
+.lyb-reg-gen {
+    width: 50%; 
+    border-radius: 12px; 
+    background: var(--lyobelle-bgc); 
+    box-sizing: border-box; 
+    padding: 1.4vw 2.5vw 2.5vw 2.5vw;
+}
+
+.lyb-reg-tt {
+    text-align: center; 
+    margin-bottom: 1vw; 
+    font: 1.4vw Gaegu; 
+    text-transform: uppercase; 
+    color: var(--lyobelle-ttc);
+}
+
+.lyb-reg-img {
+    width: 38%; 
+    margin: 8vw auto; 
+    aspect-ratio: 10/9; 
+    border-radius: 100%; 
+    background: var(--lyobelle-img) center/cover; 
+    position: relative; 
+    rotate: 10deg;
+}
+
+.lyb-reg-frm {
+    position: absolute; 
+    width: 249%; 
+    aspect-ratio: 1/1; background: url(https://iili.io/2PEkeX2.png) center/cover; 
+    top: -97%; 
+    left: -81%; 
+    rotate: -10deg;
+}
+
+.lyb-reg-lks {
+    width: 100%; 
+    border-radius: 12px; 
+    background: var(--lyobelle-bgc); 
+    box-sizing: border-box; 
+    padding: 1.4vw 2.5vw 2.5vw 2.5vw; 
+    margin-top: -4vw;
+}
+
+.lyb-reg-flw {
+    width: 29%; 
+    aspect-ratio: 1/1; 
+    background: var(--lyobelle-favflower) center/80% no-repeat, #ffffff77; 
+    border-radius: 10px; 
+    float: right; 
+    margin: 0 0 1vw 1vw;
+}
+
+.lyb-reg-dlk {
+    width: 100%; 
+    border-radius: 12px; 
+    background: var(--lyobelle-bgc); 
+    box-sizing: border-box; 
+    padding: 1.4vw 2.5vw 2.5vw 2.5vw; 
+    margin-top: 1.6vw;
+}
+
+.lyb-reg-info {
+    width: auto; 
+    border-radius: 12px; 
+    background: var(--lyobelle-bgc); 
+    box-sizing: border-box; 
+    padding: 1.4vw 2.5vw 2.5vw 2.5vw; 
+    margin-top: 1.6vw;
+}
+
+.lyb-rp-sm {
+    width: 65%; 
+    margin: 9vw auto; 
+    position: 
+    relative;
+}
+
+.lyb-rp-tw {
+    width: 96%; 
+    aspect-ratio: 11/2; 
+    mask: url(https://iili.io/2RxzxDP.png) top/cover; 
+    -webkit-mask: url(https://iili.io/2RxzxDP.png) top/cover; 
+    position: relative; 
+    z-index: 1; 
+    background: var(--stitch); 
+    margin: auto;
+}
+
+.lyb-rp-ct {
+    width: auto; 
+    border-radius: 12px; 
+    background: var(--lyb-bg); 
+    color: var(--lyb-rpt); 
+    padding: 9vw 5vw 4vw 5vw; 
+    box-sizing: border-box; 
+    font: 1.2vw Bai Jamjuree; 
+    box-shadow: 0px 0px 20px 0px #00000099; 
+    position: relative; 
+    z-index: 10;
+}
+
+.lyb-rp-si {
+    width: auto; 
+    aspect-ratio: 100/1; 
+    position: relative; 
+    z-index: 9;
+}
+
+.lyb-rp-mi {
+    width: 78%; 
+    aspect-ratio: 1/1; 
+    position: absolute; 
+    margin: auto; 
+    left: 0; 
+    right: 0; 
+    top: -6300%;
+}
+
+.lyb-rp-mf {
+    width: auto; 
+    aspect-ratio: 1/1; 
+    background: url(https://iili.io/2RxnZzX.png) center/cover; 
+    position: relative;
+}
+
+.lyb-rp-img {
+    position: absolute; 
+    width: 60%; 
+    aspect-ratio: 47/43; 
+    top: 23.5%; 
+    right: 10.8%; 
+    transform: rotate(8.45deg); 
+    background: var(--lyb-img) center/cover;
+}
+
+.lyb-rp-hs {
+    width: 40%; 
+    aspect-ratio: 1/1; 
+    background: url(https://iili.io/2Rxni5N.png) center/cover; 
+    position: absolute; 
+    bottom: 20%; 
+    left: -4%;
+}
+
+.lyb-rp-nm {
+    text-align: center; 
+    font: 3.2vw Cinzel; 
+    margin-top: -1vw; 
+    text-shadow: 2px 2px 0px var(--lyb-tsd); 
+    text-transform: capitalize; 
+    position: relative; 
+    z-index: 10;
+}
+
+.lyb-rp-ln {
+    font-size: 2.2vw; 
+    margin-top: -1vw;
+}
+
+.lyb-rp-acc {
+    margin-top: 2vw; 
+    line-height: 1.9; 
+    text-align: justify; 
+    background: radial-gradient(var(--lyb-acc) 0%, transparent 56%);
+}
+
+.lyb-rp-sn {
+    width: auto; 
+    display: flex; 
+    justify-content: right; 
+    margin-top: 2vw;
+}
+
+.lyb-rp-nt {
+    width: fit-content; 
+    border-radius: 8px; 
+    background: var(--lyb-bg); 
+    box-shadow: -2px 2px 8px 0px #00000080; 
+    padding: 0.4vw 1.8vw; 
+    box-sizing: border-box; 
+    font-size: 1.05vw;
+}
+
+.lyb-rp-rs {
+    aspect-ratio: 200/2902; 
+    mask: url(https://iili.io/2VJAhcg.png) center/cover; 
+    -webkit-mask: url(https://iili.io/2VJAhcg.png) center/cover; 
+    background: var(--stitch); 
+    width: 4%; 
+    position: absolute; 
+    right: -2%; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.lyb-rp-ls {
+    aspect-ratio: 200/2902; 
+    mask: url(https://iili.io/2VJAhcg.png) center/cover; 
+    -webkit-mask: url(https://iili.io/2VJAhcg.png) center/cover; 
+    background: var(--stitch); 
+    width: 4%; 
+    position: absolute; 
+    left: -2%; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.lyb-rp-sbw {
+    width: 96%; 
+    aspect-ratio: 5/1; 
+    position: relative; 
+    margin: auto; 
+    z-index: 1;
+}
+
+.lyb-rp-bw {
+    width: auto; 
+    height: 100%; 
+    mask: url(https://iili.io/2RxzxDP.png) bottom/cover; 
+    -webkit-mask: url(https://iili.io/2RxzxDP.png) bottom/cover; 
+    background: var(--stitch);
+}
+
+.lyb-rp-tf {
+    width: 90%; 
+    display: flex; 
+    justify-content: center; 
+    gap: 1vw; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: -42%; 
+    margin: auto;
+}
+
+.lyb-rp-tb {
+    width: 25%; 
+    aspect-ratio: 1/1; 
+    border-radius: 20px; 
+    background: var(--stitch); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border: 1px solid #121212;
+}
+
+.lyb-rp-t1 {
+    width: 86%; 
+    aspect-ratio: 1/1; 
+    border-radius: 16px; 
+    background: var(--tool1) center/75% no-repeat, #121212;
+}
+
+.lyb-rp-t2 {
+    width: 86%; 
+    aspect-ratio: 1/1; 
+    border-radius: 16px; 
+    background: var(--tool2) center/75% no-repeat, #121212;
+}
+
+.lyb-rp-t3 {
+    width: 86%; 
+    aspect-ratio: 1/1; 
+    border-radius: 16px; 
+    background: var(--tool3) center/75% no-repeat, #121212;
+}
+
+.lyb-npc-sm {
+    width: 70%; 
+    margin: 3vw auto; 
+    border-radius: 14px 14px 12px 12px; 
+    background: var(--lyb-bg); color: 
+    var(--lyb-rpt); 
+    position: relative;
+}
+
+.lyb-npc-bg {
+    width: auto; 
+    aspect-ratio: 50/27; 
+    border-radius: 12px 12px 0px 0px; 
+    mask: linear-gradient(180deg, white 58%, transparent); 
+    -webkit-mask: linear-gradient(180deg, white 58%, transparent); 
+    background: var(--bgi) center/cover;
+}
+
+.lyb-npc-img {
+    width: 86%; 
+    aspect-ratio: 100/64; 
+    background: var(--img) var(--pst)/var(--size) no-repeat; 
+    margin: auto;
+}
+
+.lyb-npc-nm {
+    text-align: center; 
+    font: 3.2vw Cinzel; 
+    margin-top: -2vw; 
+    text-shadow: 2px 2px 0px var(--lyb-tsd);
+    position: relative;
+}
+
+.lyb-npc-ln {
+    font-size: 2.2vw; 
+    margin-top: -1vw;
+}
+
+.lyb-npc-ct {
+    width: auto;
+    box-sizing: border-box;
+    padding: 2vw 4.5vw 4.5vw 4.5vw;
+    font: 1.2vw Bai Jamjuree;
+    line-height: 1.9;
+    text-align: justify;
+    background: radial-gradient(var(--lyb-acc) 0%, transparent 56%);
+}
+
+.lyb-npc-st {
+    width: 23%; 
+    aspect-ratio: 1/1; 
+    background: var(--stamp) center/cover; 
+    position: absolute; 
+    top: -438%; 
+    left: -6%;
+}
