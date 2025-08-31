@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400..900&family=Gaegu&display=swap');
 
+@font-face {
+    font-family: "Jimmy Script";
+    src: url("https://db.onlinewebfonts.com/t/37a1b8a0de621153f48ba5b361425d3d.eot");
+    src: url("https://db.onlinewebfonts.com/t/37a1b8a0de621153f48ba5b361425d3d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/37a1b8a0de621153f48ba5b361425d3d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/37a1b8a0de621153f48ba5b361425d3d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/37a1b8a0de621153f48ba5b361425d3d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/37a1b8a0de621153f48ba5b361425d3d.svg#Jimmy Script")format("svg");
+}
+
 :root {
     --lyobelle-tc: black;
     --lyb-rpt: #705a44;
@@ -498,4 +508,5 @@
     position: absolute; 
     top: -438%; 
     left: -6%;
+
 }
