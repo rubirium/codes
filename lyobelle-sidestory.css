@@ -254,7 +254,7 @@
 
 @font-face {
     font-family: 'Jimmy Script';
-    src: url('https://cdn.jsdelivr.net/gh/rubirium/fonts@raw/refs/heads/main/JimmyScript-Rg.otf') format('truetype');
+    src: url('https://cdn.jsdelivr.net/gh/rubirium/fonts@raw/refs/heads/main/JimmyScript-Rg.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -419,3 +419,4 @@
     background: var(--stitch);
 
 }
+
