@@ -1,0 +1,100 @@
+@import url(https://fonts.cdnfonts.com/css/geologica);
+@import url(https://fonts.cdnfonts.com/css/arupala-grotesk);
+
+.lcl-mset {
+    margin: 50px auto; 
+    width: 70%; 
+    color: white; 
+    font-family: Geologica;
+}
+
+.lcl-logo {
+    width: 7.1vw; 
+    margin: 0px auto 10px auto; 
+    aspect-ratio: 1/1; 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.lcl-title {
+    margin: 0px 1px 3vw 0px; 
+    text-align: center; 
+    font: 4.1vw Arupala Grotesk; 
+    letter-spacing: 1px;
+}
+
+.lcl-sub {
+    font-size: 1.1vw; 
+    letter-spacing: 4px; 
+    margin-right: 4px;
+}
+
+.lcl-pic {
+    webkit-mask-image: url(https://i.imgur.com/bIapz3A.png); 
+    mask-image: url(https://i.imgur.com/bIapz3A.png); 
+    -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; 
+    -mask-position: center; 
+    mask-position: center; 
+    -mask-size: cover; 
+    mask-size: cover; 
+    width: auto; 
+    aspect-ratio: 127/100; 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.lcl-aflex {
+    width: 93.5%; 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 0.5vw; 
+    margin: 0.5vw auto 1vw auto;
+}
+
+.lcl-abt {
+    width: 85%; 
+    font-size: 4vw; 
+    letter-spacing: 4px;
+}
+
+.lcl-info {
+    width: 15%; 
+    border-bottom: 2px solid white; 
+    margin: auto 0px; 
+    text-align: right; 
+    font-size: 1.2vw; 
+    line-height: 1.5vw; 
+    letter-spacing: 1px; 
+    box-sizing: border-box; 
+    padding-bottom: 6px;
+}
+
+.lcl-text {
+    width: 93.5%; 
+    font-size: 1.1vw; 
+    margin: auto; 
+    line-height: 1.4;
+}
+
+.lcl-bflex {
+    width: 93.5%; 
+    margin: 2vw auto 0px auto; 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 1vw;
+}
+
+.lcl-bline {
+    width: 90%; 
+    background: white; 
+    height: 2px; 
+    margin-top: auto;
+}
+
+.lcl-edt {
+    width: 10%; 
+    font: 0.6vw Arupala Grotesk; 
+    text-align: right;
+}
