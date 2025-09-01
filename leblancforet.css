@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Gilda+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --bg: #121212; 
+    --w1: 80%; 
+    --w2: 72%; 
+    --logo1: url(https://iili.io/2Mg889R.png); 
+    --logo2: url(https://iili.io/2Mg8Sup.png);
+    --width: 65%;
+}
+
+.lbf-b {
+    width: auto; 
+    margin: 2vw 2vw 2vw 0px; 
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 3vw;
+}
+
+.lbf-l {
+    width: 35%; 
+    position: relative;
+}
+
+.lbf-bd {
+    border-radius: 360px 360px 0px 0px; 
+    box-sizing: border-box; 
+    border: 3px solid var(--accent); 
+    height: 100%; 
+    width: 100%; 
+    position: absolute; 
+    left: 10%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.lbf-i {
+    width: 90%; 
+    height: 94%; 
+    border-radius: 360px 360px 0px 0px; 
+    background: var(--img) center/cover;
+}
+
+.lbf-f {
+    position: absolute; 
+    aspect-ratio: 5/11; 
+    width: 56%; 
+    background: url(https://iili.io/2MjZ8ZX.png) center/cover; 
+    bottom: 18%; 
+    right: -32%; 
+    transform: rotate(2deg); 
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.lbf-sb {
+    width: 38%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/2MXqcQ4.png) center/cover; 
+    -webkit-mask: url(https://iili.io/2MXqcQ4.png) center/cover; 
+    background: var(--accent); 
+    position: absolute; 
+    right: -20%; 
+    top: 34%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.lbf-sl {
+    width: 84%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/2MXqcQ4.png) center/cover; 
+    -webkit-mask: url(https://iili.io/2MXqcQ4.png) center/cover; 
+    background: var(--aline); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.lbf-sm {
+    width: 97%; 
+    aspect-ratio: 1/1; 
+    mask: url(https://iili.io/2MXqcQ4.png) center/cover; 
+    -webkit-mask: url(https://iili.io/2MXqcQ4.png) center/cover; 
+    background: var(--accent); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.lbf-lg {
+    width: var(--logow); 
+    aspect-ratio: 1/1; 
+    mask: var(--logo) center/cover; 
+    -webkit-mask: var(--logo) center/cover; 
+    background: var(--aline);
+}
+
+.lbf-r {
+    width: auto; 
+    display: flex; 
+    gap: 0.6vw;
+}
+
+.lbf-mn {
+    width: 42%; 
+    margin: auto 0px;
+}
+
+.lbf-ml {
+    height: 1.2px; 
+    background: var(--line);
+}
+
+.lbf-mf {
+    margin: 0.7vw 0px; 
+    display: flex; 
+    justify-content: space-between; 
+    color: var(--line); 
+    gap: 1vw; 
+    font: 0.9vw Montserrat; 
+    text-align: center;
+}
+
+.lbf-o {
+    width: 16%; 
+    border-radius: 100%; 
+    border: 1.4px solid var(--line);
+}
+
+.lbf-t {
+    text-align: center; 
+    color: var(--title); 
+    font: 4.4vw Gilda Display; 
+    margin: 5vw 0px 2vw 0px; 
+    line-height: 1;
+}
+
+.lbf-tl {
+    width: var(--width); 
+    height: 1.2px; 
+    background: var(--line); 
+    margin: auto;
+}
+
+.lbf-c {
+    width: var(--width); 
+    margin: 2vw auto 0px auto; 
+    text-align: justify; 
+    color: var(--text); 
+    font: 1.2vw Chakra Petch; 
+    line-height: 1.8; 
+    aspect-ratio: 30/18; 
+    overflow-y: scroll; 
+    scrollbar-width: none; 
+    mask: linear-gradient(to bottom, black 60%, transparent 110%); 
+    -webkit-mask: linear-gradient(to bottom, black 60%, transparent 110%); 
+    padding-bottom: 1vw;
+}
+
+.lbf-n {
+    width: var(--width); 
+    margin: 1.4vw auto 0px auto; 
+    color: var(--note); 
+    font: 0.9vw Chakra Petch; 
+    text-align: center; 
+    line-height: 1.5;
+}
