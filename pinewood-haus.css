@@ -1,0 +1,192 @@
+@import url('https://cdn.jsdelivr.net/gh/lazywasabi/thai-web-fonts@7/fonts/ChulabhornLikitText/ChulabhornLikitText.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.pine1-mset {
+    width: 60%; 
+    background: var(--pinecl); 
+    margin: 4vw auto; 
+    border-radius: 0px 0px 4px 4px; 
+    color: var(--pinetext); 
+    font: 1.1vw Chulabhorn Likit Text; 
+    padding-bottom: 1vw;
+}
+
+.pine1-ac {
+    width: auto; 
+    height: 0.5vw; 
+    background: var(--pineaccent);
+}
+
+.pine1-tflex {
+    display: flex; 
+    margin: -2.6vw 2.1vw 0px 1.6vw; 
+    gap: 0.6vw;
+}
+
+.pine1-img {
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    border: 0.5vw solid var(--pinecl); 
+    background: var(--pineimg) center/cover; 
+    border-radius: 100%;
+}
+
+.pine1-lflex {
+    width: 80%; 
+    margin-top: auto;
+}
+
+.pine1-nflex {
+    width: auto; 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 1vw; 
+    font: 1.3vw Poppins;
+}
+
+.pine1-mflex {
+    width: 18%; 
+    justify-content: space-between; 
+    gap: 0.6vw; 
+    margin: auto 0px; 
+    display: flex;
+}
+
+.pine1-info {
+    width: 33%; 
+    aspect-ratio: 1/1; 
+    background: var(--pineaccent); 
+    mask-image: url(https://iili.io/dBz87hg.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    -webkit-mask-image: url(https://iili.io/dBz87hg.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover;
+}
+
+.pine1-stf {
+    width: 33%; 
+    aspect-ratio: 1/1; 
+    background: var(--pineaccent); 
+    mask-image: url(https://iili.io/dBz8YQa.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    -webkit-mask-image: url(https://iili.io/dBz8YQa.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover;
+}
+
+.pine1-star {
+    width: 33%; 
+    aspect-ratio: 1/1; 
+    background: var(--pineaccent); 
+    mask-image: url(https://iili.io/dBzk1oJ.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    -webkit-mask-image: url(https://iili.io/dBzk1oJ.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover;
+}
+
+.pine1-note {
+    margin: 0.4vw 0px 0.6vw 0px; 
+    border-radius: 4px; 
+    background: #0000004d; 
+    padding: 0.2vw 0.8vw; 
+    font-size: 1vw; 
+    color: var(--pinenote);
+}
+
+.pine1-line {
+    width: auto; 
+    border-top: 1.4px dashed var(--pinenote); 
+    margin: 0.6vw 1.6vw;
+}
+
+.pine1-text {
+    box-sizing: border-box; 
+    padding: 1vw 1.4vw; 
+    border-radius: 4px; 
+    margin: 1.2vw 1.6vw 0.8vw 1.6vw; 
+    background: #0000004d;
+}
+
+.pine2-mset {
+    margin: 4vw auto; 
+    width: 60%; 
+    font: 1.1vw Chulabhorn Likit Text; 
+    color: var(--pinetext); 
+    display: flex; 
+    gap: 1.5vw;
+}
+
+.pine2-text {
+    width: auto; 
+    box-sizing: border-box; 
+    padding: 1vw 1.4vw; 
+    border-radius: 5px; 
+    background: var(--pinecl);
+}
+
+.pine2-note {
+    margin: 1vw 0px auto 0px; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    padding: 0.3vw 1.2vw; 
+    font-size: 1vw; 
+    color: var(--pinenote); 
+    background: var(--pinecl);
+}
+
+.pine2-img {
+    width: auto; 
+    aspect-ratio: 1/1; 
+    background: var(--pineimg) center/cover; 
+    border-radius: 100%;
+}
+
+.pine2-line {
+    width: 0.12vw; 
+    height: 2.2vw; 
+    margin: 0.6vw auto; 
+    background: var(--pineaccent);
+}
+
+.pine2-info {
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    background: var(--pineaccent); 
+    mask-image: url(https://iili.io/dBz87hg.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    -webkit-mask-image: url(https://iili.io/dBz87hg.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover; 
+    margin: auto;
+}
+
+.pine2-stf {
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    background: var(--pineaccent); 
+    mask-image: url(https://iili.io/dBz8YQa.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    -webkit-mask-image: url(https://iili.io/dBz8YQa.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover; 
+    margin: 0.6vw auto 0px auto;
+}
+
+.pine2-star {
+    width: 20%; 
+    aspect-ratio: 1/1; 
+    background: var(--pineaccent); 
+    mask-image: url(https://iili.io/dBzk1oJ.png); 
+    mask-position: center; 
+    mask-size: cover; 
+    -webkit-mask-image: url(https://iili.io/dBzk1oJ.png); 
+    -webkit-mask-position: center; 
+    -webkit-mask-size: cover; 
+    margin: 0.6vw auto 0px auto;
+}
