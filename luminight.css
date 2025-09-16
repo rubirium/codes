@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Moderniz';
-    src: url(https://dl.dropbox.com/scl/fi/gwnkowucaflw7efjjyscf/Moderniz.otf?rlkey=a4mpaqcd7br42u7zukpqv9akx) format(opentype);
+    src: url('https://dl.dropbox.com/scl/fi/gwnkowucaflw7efjjyscf/Moderniz.otf?rlkey=a4mpaqcd7br42u7zukpqv9akx') format(opentype);
     font-weight: 400;
     font-style: normal;
 }
@@ -170,3 +170,4 @@
     overflow-y: scroll;
 
 }
+
