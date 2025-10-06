@@ -1,0 +1,32 @@
+.chat-sb {
+    width: var(--width); 
+    display: flex; 
+    justify-content: flex-end; 
+    color: var(--text); 
+    font-size: var(--size); 
+    line-height: var(--leading);
+}
+
+.chat-sc {
+    width: auto; 
+    display: flex; 
+    flex-direction: 
+    column; 
+    align-items: flex-end;
+}
+
+.chat-bb {
+    width: fit-content; 
+    padding: 8px 12px 8px 12px; 
+    border-radius: 16px; 
+    background: var(--bg); 
+    margin-bottom: 0.8vw;
+}
+
+.chat-tl {
+    clip-path: polygon(5% 0%, 90% 100%, 65% 0%); 
+    height: 16px; 
+    background: var(--bg); 
+    margin-top: -1vw; 
+    width: 25px;
+}
