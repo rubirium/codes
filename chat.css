@@ -5,6 +5,7 @@
     color: var(--text); 
     font-size: var(--size); 
     line-height: var(--leading);
+    margin: 0 0 0 auto;
 }
 
 .chat-sc {
@@ -29,4 +30,5 @@
     background: var(--bg); 
     margin-top: -1vw; 
     width: 25px;
+
 }
